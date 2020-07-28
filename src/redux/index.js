@@ -1,0 +1,1 @@
+export { submit } from './actions/action';

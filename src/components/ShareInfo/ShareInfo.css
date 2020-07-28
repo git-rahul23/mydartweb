@@ -1,0 +1,57 @@
+.info-container {
+    width: 200px;
+    background-color: #F2F2F2;
+    display: flex;
+    margin-right: 10px;
+    flex-direction: row;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+    border-radius: 4px;
+    justify-content: space-between;
+    padding: 6px 10px;
+}
+
+.info-icon {
+    display: inline-block;
+    position: relative;
+}
+.icon-img {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 23px;
+    left: 10px;
+}
+.info-text {
+    text-align: center;
+    padding-top: 14px;
+    padding-left: 5px;
+}
+.share-name {
+    font-size: 8px;
+    color: #9a9797;
+}
+.share-price {
+    font-weight: bold;
+    font-size: 16px;
+}
+.info-com {
+    display: flex;
+    flex-direction: column;
+}
+
+.com-green {
+    color: #ACBD84;
+    font-weight: bold;
+    font-size: 13px;
+}
+.com-small {
+    font-size: 8px;
+}
+
+.com-bold {
+    font-weight: bold;
+    font-size: 13px;
+}
+.com-end {
+    font-size: 11px;
+}

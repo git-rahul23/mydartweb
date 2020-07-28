@@ -1,0 +1,19 @@
+.bs-container {
+    background-color: #E8E7E7;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+
+.bs-button {
+    background-color: none;
+    background: transparent;
+    border: 2px solid #FFA500;
+    color: #FFA500;
+    width: 70px;
+    height: 30px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+}

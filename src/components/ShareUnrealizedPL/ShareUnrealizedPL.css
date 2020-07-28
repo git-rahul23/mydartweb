@@ -1,0 +1,62 @@
+.pl-container {
+    width: 200px;
+    padding: 6px 10px;
+    background-color: #F2F2F2;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.pl-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.p1-text{
+    flex :0.8;
+    font-weight: bold;
+}
+
+.p1-val, .p2-val {
+    flex: 0.2;
+    font-weight: bold;
+}
+
+.p2-text {
+    color: #B5B2B2;
+    flex: 0.8;
+}
+
+
+.composite-bar {
+    display: flex;
+    flex-direction: row;
+}
+.progress-negative {
+    flex: 0.5;
+    width: 50%;
+    transform: rotate(180deg);
+}
+
+.progress-positive {
+    flex: 0.5;
+    width: 50%;
+}
+
+.p2-val{
+    display: flex;
+    flex-direction: row;
+}
+
+.retImg {
+  width: 10px;
+  height: 6px;
+}
+
+.return-icon {
+    margin-right: 5px;
+}
+

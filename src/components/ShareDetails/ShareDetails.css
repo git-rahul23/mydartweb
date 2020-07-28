@@ -1,0 +1,51 @@
+.det-container {
+    width: 250px;
+    padding: 6px 10px;
+    background-color: #F2F2F2;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.det-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+}
+.share-price {
+    color: #00B7FF;
+}
+.det-comb {
+    display: flex;
+    flex-direction: row;
+    flex: 0.8;
+}
+
+.det-value {
+    flex: 0.2;
+    float: right;
+    text-align: right;
+    font-weight: bold;
+}
+
+.det-icon-img {
+    width: 15px;
+    height: 12px;
+}
+.det-icon-img2 {
+    width: 15px;
+    height: 18px;
+}
+
+.det-icon {
+    margin-right: 10px;
+}
+.det-icon-text {
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
